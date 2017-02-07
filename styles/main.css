@@ -1,0 +1,84 @@
+main {
+  background-color:blue;
+  height:800px;
+      font-family: 'Roboto', sans-serif;}
+
+.logo {
+  position:fixed;
+  left: 50%;
+  margin-left: -83px;
+  height:35px;
+  margin-top:35px;}
+
+.whitebox {
+  position:fixed;
+  margin-top:95px;
+  height:425px;
+  width:400px;
+  left: 50%;
+  margin-left: -200px;
+  border:1px solid blue;
+  background-color:white;}
+
+h1 {
+  position:relative
+  margin-top:10px;
+  text-align:center;
+  font-weight:lighter;} 
+
+label {
+    position:relative;
+    margin-top:20px;
+    display:block;
+    left:40px;
+    top:30px;
+    width:300px;
+    font-weight:bold;}  
+
+input {
+    position:relative;
+    margin-top:20px;
+    display:block;
+    left:40px;
+    top:30px;
+    padding:10px;
+    border:2px solid lightgrey;
+    width:300px;}
+
+button {
+    position:relative;
+    margin-top:20px;
+    display:block;
+    left:40px;
+    top:30px;
+    width:300px;
+    padding:15px;
+    font-size:larger;
+    font-weight:bold;
+    background-color:green;
+    color:white;}
+
+.forgotpass {
+    display:block;
+    color:green;
+    padding-top:40px;
+    width:400px;
+    text-align:center;}
+
+.login {
+    display:inline-block;
+    position:fixed;
+    top:530px;
+    padding:10px;
+    width:300px;
+    left:50%;
+    margin-left: -150px;
+    text-align:center;
+    color:white;}
+
+a {
+  display:inline-block;
+  color:white;}
+
+p {
+  display:inline-block;}
